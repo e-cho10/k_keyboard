@@ -1,0 +1,37 @@
+user process:
+user inputs all characters in syllable in u/i
+ -> presses space
+ -> hgtk.letter.compose('characters')
+ -> syllable is printed onto display bar
+
+to-do:
+implement shift, bkspc, space, numbers
+fix bug where physical bkspc key blocks future inputs
+
+possible ideas:
+option for user to save vocabulary/phrases
+
+virtual environment instructions
+create a virtual environment:
+python -m venv env-name
+activate virtual environment:
+\Scripts\activate.bat
+
+
+Django project skeleton
+manage.py: Command-line utility that lets u interact w/ Django project
+
+settings.py: Settings/config for the Django project
+
+urls.py: URL declarations (table of contents for Django-powered site)
+
+admin.py: Registering your models here for them to be manipulated on the django admin
+
+apps.py: Contains the app configuration code
+
+models.py: Define your models here. These are the tables used for storing data and defining their relations
+
+tests.py: Writing tests for the app
+
+views: Defining data to be rendered on the templates
+
